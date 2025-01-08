@@ -1,3 +1,4 @@
-pool: MyAgentPool
+pool:
+  vmImage: Windows-latest
 steps:
 - bash: echo hello world
